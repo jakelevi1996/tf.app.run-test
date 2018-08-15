@@ -9,5 +9,5 @@ arg_list = [
     "--learning_rate", "0.5"
 ]
 
-print(arg_list)
+print("Arg list:", arg_list)
 tf.app.run(main=train_model.main, argv=arg_list)

@@ -1,4 +1,3 @@
-print("Starting imports...")
 import tensorflow as tf
 
 tf.app.flags.DEFINE_float("learning_rate", 0.001, "[0.001] Learning rate")
@@ -12,7 +11,6 @@ def train():
 
 
 def main(_):
-    print("In main")
     train()
 
 
