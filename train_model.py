@@ -11,6 +11,8 @@ def train():
 
 
 def main(_):
+    # For easier testing/better API, maybe FLAG attributes should be accessed here
+    # and passed as arguments to main() ??
     train()
 
 
